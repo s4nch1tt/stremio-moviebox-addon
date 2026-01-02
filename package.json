@@ -1,19 +1,24 @@
 {
   "name": "stremio-moviebox-addon",
   "version": "1.0.0",
-  "description": "100% Working MovieBox.ph Stremio Addon with real CDN streaming links",
+  "description": "MovieBox Stremio Addon with authenticated API integration",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
-    "axios": "^1.6.0"
+    "crypto-js": "^4.2.0"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
-  "keywords": ["stremio", "addon", "moviebox", "streaming"],
-  "author": "lakshayperu-eng",
+  "keywords": [
+    "stremio",
+    "addon",
+    "moviebox",
+    "streaming"
+  ],
+  "author": "",
   "license": "MIT"
 }
